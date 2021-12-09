@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    box-sizing: border-box;
+    
+}
+body {
+    width: 100vw;
+}
+ul {
+    list-style: none;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.logo {
+    width: 150px ;
+}
+.logo__nav{
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    width:30px;
+    height:30px;
+}
+header {
+    padding: 25px 0;
+}
+.action-btn {
+   display: none;
+}
+nav {
+    display: none;
+}
+.text-center {
+    text-align: center;
+}
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.hero-text {
+    margin: 60px 0 20px 0px;
+}
+.text-btn {
+    border: none;
+    color: #0c1825;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:10px auto;
+    display: flex;
+    align-items: center;
+}
+.light-btn {
+    background-color: #fff; /* Green */
+    border: none;
+    color: #0c1825;
+    border: 1px grey solid;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:10px auto;
+    display: flex;
+    align-items: center;
+}
+.dark-btn {
+    background-color: #0c1825; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    margin:5px auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.btn-img{
+    margin:0 5px;
+}
+.mb {
+    margin-bottom: 30px;
+}
+p {
+    font-size: 1.2rem;
+}
+.sub-text{
+    font-weight: lighter;
+    margin: 10px 0;
+}
+.images {
+    position: relative;
+    width: 80%;
+    height: 400px;
+    margin: 80px auto;
+}
+.rect {
+    position: absolute;  
+    top: 0;
+    width: 100%;
+    left: 30px;
+}
+.girl {
+    position: absolute; 
+    top: 30px; 
+    width: 100%;
+}
+.card1 {
+    position: absolute;  
+    width: 100%;
+    top:50px;
+    left: -70px;
+}
+.card2 {
+    position: absolute;  
+    bottom: 20px;
+    right: -60px;
+    width: 100%;
+}
+.download {
+    text-align: 'center';
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.download {
+    display: flex;
+    /* width: 85%; */
+    margin: 0 auto;
+}
+.rect {
+    position: absolute;  
+    top: 0;
+    width: 100%;
+    left: 30px;
+}
+.girl {
+    position: absolute; 
+    top: 30px; 
+    width: 100%;
+}
+.card1 {
+    position: absolute;  
+    width: 100%;
+    top:50px;
+    left: -70px;
+}
+.card2 {
+    position: absolute;  
+    bottom: 20px;
+    right: -60px;
+    width: 100%;
+}
+.images {
+    position: relative;
+    width: 70%;
+    height: 500px;
+    margin: 80px auto;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.images {
+    position: relative;
+    width: 70%;
+    height: 500px;
+    margin: 80px auto;
+}
+.rect {
+    position: absolute;  
+    top: 0;
+    width: 100%;
+    left: 30px;
+}
+.girl {
+    position: absolute; 
+    top: 30px; 
+    width: 100%;
+}
+.card1 {
+    position: absolute;  
+    width: 70%;
+    top:50px;
+    left: -70px;
+}
+.card2 {
+    position: absolute;  
+    bottom: -130px;
+    right: -60px;
+    width: 70%;
+}
+.download {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.container {
+    width: 90%;
+}
+
+    .hero {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    justify-items: space-between;
+
+}
+.hero-title{
+width: 50%;
+
+}
+
+.card2 {
+    position: absolute;  
+    bottom: 20px;
+    right: -60px;
+    width: 70%;
+}
+.download {
+    width: 100%;
+}
+.title {
+    font-size: 50px;
+}
+.light-btn {
+    padding: 12px 20px;
+    font-size: 14px;
+    margin:10px auto;
+   
+}
+.images {
+    width: 40%;
+    margin: 80px 0;
+   }
+}
+@media only screen and (min-width: 1200px) {
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    justify-items: space-between;
+
+}
+.menu {
+    display: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: block;
+}
+nav ul {
+    display: flex;
+}
+.images{
+    width: 30%;
+}
+.action-btn{
+    display: flex;
+}
+
+}
