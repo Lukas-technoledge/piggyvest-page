@@ -301,7 +301,7 @@ p {
     margin: 80px auto;
   }
   .invest h2 {
-    font: size 35px!important;
+   font-size: 100px !important;
   }
 }
 
