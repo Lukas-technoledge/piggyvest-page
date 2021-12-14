@@ -4,9 +4,6 @@
   font-size: 1rem;
   box-sizing: border-box;
 }
-body {
-  width: 100vw;
-}
 ul {
   list-style: none;
 }
@@ -155,6 +152,7 @@ p {
 }
 .security {
   display: block;
+  margin-bottom: 10rem;
 }
 .security-img > img {
   width: 20%;
@@ -166,6 +164,105 @@ p {
 }
 .hero {
   margin-bottom: 150px;
+}
+.start-saving h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.start-saving p {
+  margin-bottom: 2.5rem;
+  display: flex;
+}
+.start-saving a {
+  text-decoration: none;
+  width: 50%;
+}
+.start-saving {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 70px !important;
+}
+.start {
+  display: block;
+}
+.bank {
+  background-color: #f9f9f9;
+  margin-bottom: 50px !important;
+  border-radius: 15px;
+  width: 65%;
+  padding: 30px 30px;
+  margin: 0 auto;
+}
+.bank h5 {
+  text-align: center;
+  margin-bottom: 18px;
+  font-size: 1.3rem;
+}
+.bank p {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.links {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+.bank-img {
+  display: flex;
+  justify-content: center;
+}
+.bank a > img {
+  width: 15%;
+  margin-bottom: 25px;
+}
+.investment {
+  display: block;
+  margin-bottom: 5rem;
+}
+.invest-img>img {
+  width: 256px;
+}
+.invest-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.invest {
+  width: 90%;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.invest-tag {
+  display: flex;
+  justify-content: center;
+  background-color: #f7f0ff;
+  margin-bottom: 30px;
+  color: #7913e5;
+  border-radius: 10px;
+  padding: 6px 22px;
+  border-radius: 40px;
+  font-weight: 700!important;
+}
+.invest h2 {
+  font-size:29px!important;
+  line-height: 35px;
+  margin-bottom: 30px;
+}
+.invest-p {
+  font-size: 17px!important;
+  color: #353535;
+  line-height: 27.2px;
+  margin-bottom: 30px;
+}
+.invest a {
+  color: #7913e5;
+  font-weight: 500!important;
+  font-size: 18px;
+  text-decoration: none;
+}
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -202,6 +299,9 @@ p {
     width: 70%;
     height: 500px;
     margin: 80px auto;
+  }
+  .invest h2 {
+    font: size 35px!important;
   }
 }
 
@@ -240,6 +340,14 @@ p {
     display: flex;
     width: 70%;
     margin: 0 auto;
+  }
+  .bank {
+    width: 100%;
+  }
+  .saving-types {
+    display: grid;
+    grid-template-columns: 320px 320px;
+    gap: 1rem;
   }
 }
 
@@ -283,6 +391,14 @@ p {
   }
   .security-img > img {
     width: 10%;
+  }
+  .start-saving {
+    width: 100%;
+    padding: 30px 0px;
+  }
+  .savings {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -333,4 +449,18 @@ p {
   .security-text {
     text-align: left;
   }
+  .start-saving {
+    width: 100%;
+  }
+  .start-saving h3 {
+    text-align: left;
+  }
+  .start-saving p {
+    text-align: left;
+  }
+  .savings {
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+  }
+
 }
